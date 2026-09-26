@@ -1,0 +1,89 @@
+Meichen Pet Clinic Management System — Privacy Policy
+Effective Date: September 26, 2026
+Scope: Meichen Pet Clinic Management System (Software ID: MC-CW-01, Version 1.0.0)
+
+1. Overview
+This Privacy Policy explains how the "Meichen Pet Clinic Management System" (hereinafter "the Software") collects, stores, uses, and protects your data. We understand that pet diagnosis and treatment data is highly sensitive. Therefore, we adopt a "local-first, minimal collection, offline operation" design principle to maximize your privacy protection.
+
+2. Information We Collect
+
+2.1 Business Data (Customer Data)
+All data you actively enter during the use of the Software, including but not limited to:
+- Pet information (name, breed, age, weight, vaccination records, etc.)
+- Pet owner information (name, contact number, address, etc.)
+- Medical records, prescriptions, test reports, surgical records
+- Billing records, inventory information
+- Uploaded image files
+The above data is entirely under your control and stored in the local database on your own device.
+
+2.2 Machine Code
+The Software automatically generates a Machine Code based on computer hardware/system identifiers (e.g., Windows MachineGuid) through a one-way hash algorithm for authorization binding. The Machine Code does not contain any business data or personally identifiable information and cannot be reverse-engineered to reveal original hardware information.
+
+2.3 Information We Actively Collect
+Except for the following circumstances, the Software does not collect your data:
+- During authorization activation: sending the Machine Code to the Registration Center (http://www.ccxcc.cc:5009) to obtain a Registration Code
+- During technical support: data you voluntarily provide to the Licensor via telephone, WeChat, or email
+
+3. Data Storage and Transmission
+
+3.1 Local Storage
+- Business database: pethospital.db (SQLite format), located in the Software's runtime directory
+- Operation log: operationlog.db (SQLite format), located in the same directory
+- The above data is NOT uploaded to the Licensor's servers and is NOT subject to any cloud synchronization
+
+3.2 Offline Operation
+Daily use of the Software does not require an internet connection. Authorization verification is completed locally, and all business operations are fully offline.
+
+3.3 Data Transmission
+Network communication occurs only in the following scenarios:
+- When the License File is missing or expired, the Machine Code is sent to the Registration Center to request a Registration Code
+- Network communication uses the HTTP protocol; only the Machine Code is transmitted, containing no business data
+
+4. Purpose of Data Use
+We use your data only for the following purposes:
+- Authorization management and verification (Machine Code)
+- Providing technical support services (data you voluntarily provide)
+- Fulfilling legal obligations (e.g., as required by judicial authorities)
+We will not use your data for advertising, user profiling, data analysis, or other commercial purposes.
+
+5. Data Sharing and Disclosure
+We will not sell, rent, share, or disclose your Customer Data to any third party.
+Disclosure may occur only in the following circumstances:
+- With your written authorization and consent
+- As required by laws, regulations, or judicial authorities
+- When necessary to protect the legitimate rights and interests of the Licensor (e.g., pursuing infringement)
+
+6. Data Security
+
+6.1 Technical Measures
+- Database files are stored on your local device; physical security is your responsibility
+- Machine Codes are generated using a one-way hash algorithm and cannot be reverse-engineered
+- The License File (key.mc) employs encrypted verification mechanisms
+
+6.2 Your Security Responsibilities
+- Back up data regularly to independent storage devices
+- Change default account passwords immediately
+- Manage internal user permissions
+- Protect the runtime environment (antivirus, prevent unauthorized access)
+
+7. Your Data Rights
+You have the following rights:
+- Access and Export: You may export all Customer Data at any time through the Software
+- Modify and Delete: You may modify or delete any Customer Data at any time
+- Data Migration: You may copy database files to another device
+- Discontinue Use: After uninstalling the Software, database files remain on your device for you to dispose of at your discretion
+
+8. Third-Party Components
+The Software uses third-party open-source components (Vue.js, Spring Boot, SQLite, etc.). These components run locally and do not independently collect or transmit your data. Each component is provided under its own license.
+
+9. Protection of Minors
+The Software is designed for pet diagnosis and treatment institutions and does not directly provide services to minors. If you provide pet diagnosis and treatment services for minors, the relevant pet owner information shall be collected and managed by you in accordance with applicable laws.
+
+10. Policy Updates
+We may revise this Privacy Policy from time to time. Material changes will be communicated through software updates or written notice. The revised policy shall take effect upon publication, and your continued use of the Software constitutes acceptance of the revisions.
+
+11. Contact Us
+If you have any questions or requests regarding this Privacy Policy, please contact us:
+Telephone: 15000223240
+Email: 13011103@qq.com
+Website: http://www.meichen.site
